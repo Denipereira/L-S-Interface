@@ -1,0 +1,149 @@
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+    header .busca {
+        margin: 0px 10px;
+
+        input {
+            width: 350px;
+        }
+    }
+
+    header .contato {
+        margin: 0px 20px;
+
+        p {
+            font-size: 0.7em;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    header .login {
+        margin: 0px 15px;
+
+        p {
+            font-size: 0.7em;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    .menu {
+
+        /* background-color: black; */
+        a {
+            font-size: 0.8em;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    header {
+        padding: 10px 10px;
+    }
+
+    header .busca {
+        margin: 0px 50px;
+
+        input {
+            width: 300px;
+        }
+
+        label {
+            padding: 4px 10px;
+            font-size: 0.9em;
+        }
+    }
+
+    header .contato {
+        margin: 0px 0px;
+
+        p {
+            font-size: 0.7em;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    header .login {
+        margin: 0px 15px;
+
+        p {
+            font-size: 0.7em;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    .menu {
+
+        /* background-color: black; */
+        a {
+            font-size: 0.8em;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    header {
+        padding: 10px 10px;
+    }
+
+    header .busca {
+        display: none;
+        margin: 0px 50px;
+
+        input {
+            width: 300px;
+        }
+
+        label {
+            padding: 4px 10px;
+            font-size: 0.9em;
+        }
+    }
+
+    header .contato {
+        margin: 0px 0px;
+
+        p {
+            font-size: 0.7em;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    header .login {
+        margin: 0px 15px;
+
+        p {
+            font-size: 0.7em;
+        }
+
+        a {
+            font-size: 0.8em;
+        }
+    }
+
+    .menu {
+        flex-flow: row wrap;
+        #menuicon{
+            display: none;
+        }
+        /* background-color: black; */
+        a {
+            font-size: 0.7em;
+            margin: 5px;
+        }
+    }
+
+}
