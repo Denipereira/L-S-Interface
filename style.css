@@ -10,7 +10,7 @@
 header {
     /* margin: auto; */
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: space-evenly;
     flex-flow: row nowrap;
     align-items: center;
@@ -145,6 +145,9 @@ header #cart {
 
 .imgmain {
     margin-top: 104px;
+    img{
+        width: 100vw;
+    }
     &:hover{
         opacity: 0.8;
         transition: opacity 0.1s ease;
@@ -155,22 +158,47 @@ header #cart {
     display: flex;
     border: 1px solid rgba(128, 128, 128, 0.384);
     border-radius: 5px;
-    width: 1300px;
+    width: 70%;
+    height: 120px;
     margin: auto;
     margin-top: 30px;
     padding: 20px;
     justify-content: space-around;
-    align-items: center;
 
     span {
         color: red;
     }
 
     div {
-        margin-left: -150px;
+        /* margin-left: -150px; */
+        width: 210px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-flow: row nowrap;
+        #entrega{
+            /* align-self: center; */
+            margin-top: 20px;
+            margin-left: 10px;
+            color: red;
+            
+        }
+        #pagamento{
+            /* align-self: center; */
+            margin-top: 20px;
+            margin-left: 10px;
+            color: red;
+            
+        }
+        #seguranca{
+            /* align-self: center; */
+            margin-top: 20px;
+            margin-left: 10px;
+            color: red;
+            
+        }
 
         &:nth-child(2) {
-            border-right: 1px solid rgba(128, 128, 128, 0.356);
+            /* border-right: 1px solid rgba(128, 128, 128, 0.356); */
             padding-right: 40px;
         }
 
@@ -181,11 +209,19 @@ header #cart {
 
         p {
             font-weight: bold;
+            text-align: start;
+            /* border: 2px solid blue; */
+            flex: auto;
+            margin-left: 10px;
         }
 
         span {
             color: black;
             font-size: 0.8em;
+            margin-left: 30px;
+            flex-basis: 00px;
+            position: absolute;
+            margin-top: 50px;
         }
     }
 }
@@ -199,8 +235,9 @@ h2 {
 
 main {
     display: flex;
-    width: 1300px;
-    margin: auto;
+    /* width: 80vw; */
+    /* margin: auto; */
+    justify-content: center;
 }
 
 main section {
