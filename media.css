@@ -68,14 +68,14 @@
 
     @media screen and (min-width: 900px) and (max-width: 1200px) {
         header {
-            padding: 10px 10px;
+            padding: 10px 40px;
         }
 
         header .busca {
-            margin: 0px 50px;
+            margin: 0px 20px;
 
             input {
-                width: 300px;
+                width: 240px;
             }
 
             label {
@@ -92,19 +92,19 @@
             }
 
             a {
-                font-size: 0.8em;
+                font-size: 0.7em;
             }
         }
 
         header .login {
-            margin: 0px 15px;
+            margin: 0px 10px;
 
             p {
                 font-size: 0.7em;
             }
 
             a {
-                font-size: 0.8em;
+                font-size: 0.7em;
             }
         }
 
@@ -112,7 +112,7 @@
 
             /* background-color: black; */
             a {
-                font-size: 0.8em;
+                font-size: 0.7em;
             }
         }
 
